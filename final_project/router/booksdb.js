@@ -1,14 +1,40 @@
+// router/booksdb.js
 let books = {
-      1: {"author": "Chinua Achebe","title": "Things Fall Apart", "reviews": {} },
-      2: {"author": "Hans Christian Andersen","title": "Fairy tales", "reviews": {} },
-      3: {"author": "Dante Alighieri","title": "The Divine Comedy", "reviews": {} },
-      4: {"author": "Unknown","title": "The Epic Of Gilgamesh", "reviews": {} },
-      5: {"author": "Unknown","title": "The Book Of Job", "reviews": {} },
-      6: {"author": "Unknown","title": "One Thousand and One Nights", "reviews": {} },
-      7: {"author": "Unknown","title": "Nj\u00e1l's Saga", "reviews": {} },
-      8: {"author": "Jane Austen","title": "Pride and Prejudice", "reviews": {} },
-      9: {"author": "Honor\u00e9 de Balzac","title": "Le P\u00e8re Goriot", "reviews": {} },
-      10: {"author": "Samuel Beckett","title": "Molloy, Malone Dies, The Unnamable, the trilogy", "reviews": {} }
-}
+  "978-1984819393": {
+    "author": "Emily Henry",
+    "title": "Happy Place",
+    "reviews": {
+      "user1": "A delightful and heartwarming read!",
+      "user2": "Enjoyed the characters and the setting."
+    }
+  },
+  "978-0321765723": {
+    "author": "J.R.R. Tolkien",
+    "title": "The Lord of the Rings",
+    "reviews": {
+      "reader1": "A timeless epic fantasy.",
+      "elflover": "Still the best fantasy series ever written."
+    }
+  },
+  "978-0743273565": {
+    "author": "F. Scott Fitzgerald",
+    "title": "The Great Gatsby",
+    "reviews": {
+      "classicreader": "A poignant story about the American Dream."
+    }
+  },
+  "978-0061120084": {
+    "author": "Harper Lee",
+    "title": "To Kill a Mockingbird",
+    "reviews": {
+      "lawstudent": "A powerful and important book on justice and prejudice."
+    }
+  },
+  "978-1984801930": {
+    "author": "Colleen Hoover",
+    "title": "It Ends with Us",
+    "reviews": {}
+  }
+};
 
-module.exports=books;
+module.exports = books;
